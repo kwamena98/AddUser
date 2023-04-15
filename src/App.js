@@ -25,7 +25,7 @@ function App() {
 
   const handleConfirm = async () => {
     setIsLoading(true);
-    fetch('http://127.0.0.1:5000/add_data', {
+    fetch('https://apissue.onrender.com//add_data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
